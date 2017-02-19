@@ -28,8 +28,8 @@ public class FrequenceOfDigraph {
             digraph.put(nameOfDigraph, (digraph.get(nameOfDigraph) + valueOfDigraph));
           } else {
             digraph.put(nameOfDigraph, valueOfDigraph);
-            numberOfvalues++;
           }
+          numberOfvalues++;
         }
         firstPartOfDigraph = alphabeticalCharacter;
       }
